@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node-dev app.ts",
-    "build": "tsc index.ts"
+    "docker-start": "node app.js",
+    "build": "tsc app.ts"
   },
   "dependencies": {
     "express": "^4.17.1"
